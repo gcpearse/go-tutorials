@@ -3,12 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	var array [2]string
-	array[0] = "Hello"
-	array[1] = "world"
+	var a [2]string
+	a[0] = "Hello"
+	a[1] = "world"
 
-	fmt.Println(array[0], array[1])
-	fmt.Println(array)
+	fmt.Println(a[0], a[1])
+	fmt.Println(a)
 
 	primes := [5]int{2, 3, 5, 7, 11}
 	fmt.Println(primes)

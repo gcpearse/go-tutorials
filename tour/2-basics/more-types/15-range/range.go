@@ -5,8 +5,8 @@ import "fmt"
 var multiples = []int{0, 2, 4, 6, 8, 10}
 
 func main() {
-	for i, value := range multiples {
-		fmt.Printf("2 x %d = %d\n", i, value)
+	for i, v := range multiples {
+		fmt.Printf("2 x %d = %d\n", i, v)
 	}
 
 	exponents := make([]int, 10)
@@ -15,8 +15,8 @@ func main() {
 		exponents[i] = 1 << uint(i)
 	}
 
-	for _, value := range exponents {
-		fmt.Printf("%d\n", value)
+	for _, v := range exponents {
+		fmt.Printf("%d\n", v)
 	}
 }
 

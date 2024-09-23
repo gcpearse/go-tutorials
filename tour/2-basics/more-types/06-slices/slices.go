@@ -5,9 +5,9 @@ import "fmt"
 func main() {
 	primes := [5]int{2, 3, 5, 7, 11}
 
-	slice := primes[1:4]
+	s := primes[1:4]
 
-	fmt.Println(slice)
+	fmt.Println(s)
 }
 
 /*

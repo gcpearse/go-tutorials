@@ -3,19 +3,19 @@ package main
 import "fmt"
 
 func main() {
-	var slice []int
-	printSlice(slice)
+	var s []int
+	printSlice(s)
 
-	slice = append(slice, 0)
-	printSlice(slice)
+	s = append(s, 0)
+	printSlice(s)
 
-	slice = append(slice, 1)
-	printSlice(slice)
+	s = append(s, 1)
+	printSlice(s)
 
-	slice = append(slice, 2, 3, 4)
-	printSlice(slice)
+	s = append(s, 2, 3, 4)
+	printSlice(s)
 }
 
-func printSlice(slice []int) {
-	fmt.Printf("len=%d cap=%d %v\n", len(slice), cap(slice), slice)
+func printSlice(s []int) {
+	fmt.Printf("len=%d cap=%d %v\n", len(s), cap(s), s)
 }

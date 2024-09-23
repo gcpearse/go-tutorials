@@ -6,10 +6,10 @@ import (
 )
 
 func pow(x, exponent, limit float64) float64 {
-	if value := math.Pow(x, exponent); value < limit {
-		return value
+	if v := math.Pow(x, exponent); v < limit {
+		return v
 	} else {
-		fmt.Printf("%g >= %g\n", value, limit)
+		fmt.Printf("%g >= %g\n", v, limit)
 	}
 
 	return limit

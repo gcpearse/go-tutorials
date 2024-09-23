@@ -26,4 +26,6 @@ A basic for loop is made up of an init statement, condition expression, and post
 
 The init and post statements are optional. A for loop without an init statement and post statement works like a while loop.
 
+To create an infinite loop, simply omit the init statement, condition, and post statement: for {}.
+
 */
