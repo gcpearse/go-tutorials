@@ -13,15 +13,10 @@ func (v Vertex) Abs() float64 {
 	return math.Sqrt(v.X*v.X + v.Y*v.Y)
 }
 
-// func Abs(v Vertex) float64 {
-// 	return math.Sqrt(v.X*v.X + v.Y*v.Y)
-// }
-
 func main() {
 	v := Vertex{3, 4}
 
 	fmt.Println(v.Abs())
-	// fmt.Println(Abs(v))
 }
 
 /*
@@ -31,11 +26,5 @@ Go does not have classes but we can define methods on types.
 A method takes a receiver argument between the func keyword and the method name.
 
 In this example, the Abs method has a receiver - v - of type Vertex.
-
----
-
-Note the commented out code showing that Abs can be written as a regular function with no change in functionality.
-
-A method is just a function with a receiver argument.
 
 */
