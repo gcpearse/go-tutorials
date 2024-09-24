@@ -1,6 +1,6 @@
 # Tutorial: Get started with Go
 
-The official **Get started with Go** tutorial from [go.dev](https://go.dev/doc/tutorial/getting-started).
+Reproduced and modified material from the **Get started with Go** tutorial at [go.dev](https://go.dev/doc/tutorial/getting-started).
 
 ## Notes
 

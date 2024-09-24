@@ -1,6 +1,6 @@
 # Tutorial: Create a Go module
 
-The official **Create a Go module** tutorial from [go.dev](https://go.dev/doc/tutorial/getting-started).
+Reproduced and modified material from the **Create a Go module** tutorial at [go.dev](https://go.dev/doc/tutorial/getting-started).
 
 ## Notes
 

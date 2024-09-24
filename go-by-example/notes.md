@@ -1,3 +1,3 @@
 # Tutorial: Go by Example
 
-The official **Go by Example** introduction from [gobyexample.com](https://gobyexample.com/) by Mark McGranaghan and Eli Bendersky.
+Reproduced and modified material from the **Go by Example** introduction at [gobyexample.com](https://gobyexample.com/) by Mark McGranaghan and Eli Bendersky.
