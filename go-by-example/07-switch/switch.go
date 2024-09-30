@@ -6,13 +6,15 @@ import (
 )
 
 func main() {
-	isToggled := true
+	i := 1
 
-	switch isToggled {
-	case true:
-		fmt.Println("Toggle on")
-	case false:
-		fmt.Println("Toggle off")
+	switch i {
+	case 1:
+		fmt.Println("One")
+	case 2:
+		fmt.Println("Two")
+	case 3:
+		fmt.Println("Three")
 	}
 
 	switch time.Now().Weekday() {
@@ -49,3 +51,11 @@ func main() {
 	getType(true)
 	getType(1.1)
 }
+
+/*
+
+A switch statement without an expression is an alternative way of expressing if/else logic.
+
+A type switch can be used to identify the type of an interface value.
+
+*/
