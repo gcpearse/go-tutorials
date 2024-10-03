@@ -17,13 +17,13 @@ func main() {
 
 	fmt.Println(b)
 
-	b = [...]int{1, 2, 3, 4, 5}
+	c := [...]int{1, 2, 3, 4, 5}
 
-	fmt.Println(b)
+	fmt.Println(c)
 
-	b = [...]int{10, 3: 40, 50}
+	d := [...]int{10, 3: 40, 50}
 
-	fmt.Println(b)
+	fmt.Println(d)
 
 	var nested [2][3]int
 

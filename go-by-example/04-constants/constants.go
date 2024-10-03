@@ -24,7 +24,7 @@ func main() {
 
 Constant expressions perform arithmetic with arbitrary precision.
 
-A numeric constant has no type until given one. For example, we can use an explicit conversion.
+A numeric constant has no type until given one, such as when we use an explicit conversion.
 
 A numeric constant can also be given a type by using it in a context that requires a specific type. For example, math.Sin expects a float64.
 
